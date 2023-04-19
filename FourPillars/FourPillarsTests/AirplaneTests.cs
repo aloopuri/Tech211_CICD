@@ -59,5 +59,11 @@ namespace FourPillarsTests
                 "capacity: 200 passengers: 150 speed: 100 position: 0 altitude: 100"));
         }
 
+        [Test]
+        public void FakeTestForCICDExample()
+        {
+            Assert.Fail();
+        }
+
     }
 }
