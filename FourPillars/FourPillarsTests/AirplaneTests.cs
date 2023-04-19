@@ -31,7 +31,7 @@ namespace FourPillarsTests
         {
             Airplane plane = new Airplane(200) { Altitude = 100 };
 
-            Assert.That(() => plane.Descend(500), Throws.TypeOf<ArgumentException>())
+            Assert.That(() => plane.Descend(500), Throws.TypeOf<ArgumentException>());
         }
 
         [Test]
@@ -47,7 +47,7 @@ namespace FourPillarsTests
         {
             Airplane plane = new Airplane(200) { Altitude = 100 };
 
-            Assert.That(plane.Move(3), Is.EqualTo("Moving along 3 times at an altitude of 100 metres"))
+            Assert.That(plane.Move(3), Is.EqualTo("Moving along 3 times at an altitude of 100 metres"));
         }
 
         [Test]
